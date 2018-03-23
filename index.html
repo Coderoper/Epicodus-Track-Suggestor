@@ -2,19 +2,20 @@
 <html>
   <head>
     <link href="css/bootstrap.css" rel ="stylesheet" media="all">
+    <link href="css/stylesheet.css" rel="stylesheet">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Track Suggestor</title>
   </head>
   <body>
+    
     <div class="container">
       <div><h4>Select answers to help you choose your path with the Track Suggestor</h4>
         <p>Where can you see yourself working as a programmer?</p>
 
         <div id="allforms">
           <div id="form1">
-            <form id="company">
-              <select class="form-control">
+              <select class="form-control" id="company">
                 <option value="0">Select a company</option>
                 <option value="1">Microsoft</option>
                 <option value="2">Google</option>
@@ -26,51 +27,57 @@
           <p>Do you want to focus more on front end or backend?</p>
 
           <div id="form2">
-            <form id="frontorback">
-              <select class="form-control">
+
+              <select class="form-control" id="frontorback">>
                 <option value="0">Front end or back end?</option>
                 <option value="5">Frontend</option>
                 <option value="6">Backend</option>
                  startup</option>
               </select>
-            </form>
+
           </div>
 
           <p>Would you prefer to take class in Portland, Or, Seattle, Wa or online?</p>
           <div id="form3">
-            <form id="classroom">
-              <select class="form-control">
+
+              <select class="form-control" id="classroom">
                 <option value="0">Choose classroom location</option>
                 <option value="7">Portland, Or</option>
                 <option value="8">Seattle, Wa</option>
                 <option value="9">Online</option>
               </select>
-            </form>
+
           </div>
           <p>Are you ready to commit a huge amount of time and energy into learning to code?</p>
           <div id="form3">
-            <form id="commitment">
-              <select class="form-control">
+
+              <select class="form-control" id="commitment">>
                 <option value="0">Are you ready?</option>
                 <option value="10">Yes</option>
                 <option value="11">No</option>
               </select>
-            </form>
           </div>
           <p>Are you interested in learning how to program?</p>
           <div id="form3">
-            <form id="interested">
-              <select class="form-control">
+
+              <select class="form-control" id="interested">>
                 <option value='0'>Interested in programming?</option>
                 <option value="12">Yes</option>
                 <option value="13">No</option>
               </select>
-            </form>
+
           </div>
 
           <button type="submit" name="button" id="button">Submit</button>
-       </form>
+
         </div>
+    </div>
+    <div id="csharp"> <p>Take C #</p>
+    </div>
+    <div id="Java"> <p>Take Java</p>
+    </div>
+    <div id="PHP"> <p>Take PHP</p>
+    </div>
     </div>
   </body>
 </html>
