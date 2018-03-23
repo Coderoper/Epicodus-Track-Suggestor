@@ -1,39 +1,29 @@
+var companyName = parseInt($("#company").val());
+var frontorback = parseInt($("#frontorback").val());
+var classroom = parseInt($("#classroom").val());
+var commitment = parseInt($("#commitment").val());
+var interested = parseInt($("interested").val());
+
+
+
 $(document).ready(function(){
-  $("#company").submit(function(event){
+  $("#allforms").submit(function(event){
     event.preventDefault();
     course(companyName)
   });
 
 });
-var companyName = parseInt($("#company").val());
+
 var course = function(companyName) {
-  if (companyName === '1') {
+  if (companyName === "1" && commitment === "10" && interested == "12") {
     alert("You should take C#")
-  } else if (companyName === "Google") {
+  } else if (companyName === "2" && commitment === "10" && interested == "12") {}
     alert("You should take Java")
-  } else if (companyName === "government") {
+  } else if (companyName === "3" && commitment === "10" && interested == "12") {
     alert("You should take PHP")
-  } else if (companyName === "startup") {
+  } else if (companyName === "4" && commitment === "10" && interested == "12") {
     alert("You should take Ruby")
   } else {
     alert("There are no classes for you")
   };
 };
-
-
-
-
-// var course =function(companyName){
-//   // if (companyName === 1){}
-//   alert("Microsoft!");
-// };
-// $(document).ready(function(){
-//   var companyName = parseInt($("#company").val());
-//   $('#company').change(function(event){
-//     event.preventDefault();
-//
-//     alert("hi1");
-//     course(companyName);
-//     alert("hi2");
-//   });
-// });
