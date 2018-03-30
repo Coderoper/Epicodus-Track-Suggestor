@@ -15,20 +15,20 @@ friend = $("#friends").val();
 
 function course(){
   if (company === "microsoft" && committed === "yes" && interest === "yes" && friend === "yes"){
-    alert("You should take C#/.NET")
-    $("#Csharp").show()
+    alert("You should take C#/.NET");
+    $("#Csharp").show();
   }
   if (company === "google" && committed === "yes" && interest === "yes" && friend === "yes"){
-    alert("You should take Java/Android")
-    $("#Java").show()
+    alert("You should take Java/Android");
+    $("#Java").show();
   }
   if (company === "gov" && committed === "yes" && interest === "yes" && friend === "yes"){
-    alert("You should take PHP")
-    $("#PHP").show()
+    alert("You should take PHP");
+    $("#PHP").show();
   }
   if (company === "startup" && committed === "yes" && interest === "yes" && friend === "yes"){
     alert("You should take Ruby/Rails")
-    $("#Ruby").show()
+    $("#Ruby").show();
   // } else{
   //   alert("You should not enroll")
   //   $("#Not").show()

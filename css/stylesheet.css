@@ -1,28 +1,23 @@
-.jumbotron{
-}
+#java {
+  display: none;
+};
+#csharp {
+  display: none;
+};
+#php {
+  display: none;
+};
+#ruby {
+  display: none;
+};
+#not {
+  display: none;
+};
+
 body img{
   background-color: teal;
   float:left;
-};
-/* #nothing {
-display: hide;
-}; */
-#Csharp {
-display: hide;
-};
-#Java {
-display: hide;
-};
+  margin-right: 30px;
+  display:
 
-#PHP {
-display: hide;
 };
-
-#Ruby {
-display: hide;
-};
-
-
-/* #Not{
-display: none;
-} */
