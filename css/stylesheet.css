@@ -1,6 +1,8 @@
-body {
-  background-color: none
-  background-image: url("img/matrix.jpg");
+body img{
+  background-color: teal;
+  float:left;
+
+
   ;
 }
 #csharp {
