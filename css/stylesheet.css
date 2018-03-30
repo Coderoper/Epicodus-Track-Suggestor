@@ -1,16 +1,29 @@
+.jumbotron{
+}
 body img{
   background-color: teal;
   float:left;
-
-
-  ;
-}
-#csharp {
+};
+/* #nothing {
+display: hide;
+}; */
+#Csharp {
 display: none;
-}
+font-size: 100px;
+};
 #Java {
 display: none;
-}
+};
+
 #PHP {
 display: none;
-}
+};
+
+#Ruby {
+display: none;
+};
+
+
+/* #Not{
+display: none;
+} */

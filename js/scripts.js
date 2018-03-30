@@ -16,38 +16,25 @@ friend = $("#friends").val();
 function course(){
   if (company === "microsoft" && committed === "yes" && interest === "yes" && friend === "yes"){
     alert("You should take C#/.NET")
+    $("#Csharp").show()
   }
   if (company === "google" && committed === "yes" && interest === "yes" && friend === "yes"){
     alert("You should take Java/Android")
+    $("#Java").show()
   }
   if (company === "gov" && committed === "yes" && interest === "yes" && friend === "yes"){
     alert("You should take PHP")
+    $("#PHP").show()
   }
   if (company === "startup" && committed === "yes" && interest === "yes" && friend === "yes"){
     alert("You should take Ruby/Rails")
-  } else{
-    alert("You should not enroll")
+    $("#Ruby").show()
+  // } else{
+  //   alert("You should not enroll")
+  //   $("#Not").show()
   }
-  
+
   };
-
-  // if(company === "google" && committed === "yes" && interested === "yes" && friends === "yes") {
-  //   alert("You should take Java")
-  // };
-
-//
-//   } else if (classroom === "2" && commitment === "10" && interested == "12") {
-//     alert("You should take Java");
-//     $('Java').show();
-//   } else if(companyName === "4" && commitment === "10" && interested == "12") {
-//     alert("You should take Ruby");
-//     $('PHP').show();
-//   } else {
-//     alert("you shouldn't take any classes")
-//   };
-//
-//
-// };
 
 $(document).ready(function() {
   $("#form1").submit(function(event) {
@@ -55,7 +42,5 @@ $(document).ready(function() {
     getValues();
     course();
     console.log(company);
-    // course(companyName);
-    // c
-  });
+});
 });
