@@ -8,19 +8,18 @@ body img{
 display: hide;
 }; */
 #Csharp {
-display: none;
-font-size: 100px;
+display: hide;
 };
 #Java {
-display: none;
+display: hide;
 };
 
 #PHP {
-display: none;
+display: hide;
 };
 
 #Ruby {
-display: none;
+display: hide;
 };
 
 
