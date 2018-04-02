@@ -12,7 +12,6 @@ committed = $("#commitment").val();
 interest = $("#interested").val();
 friend = $("#friends").val();
 };
-
 function course(){
   if (company == 0 || where == 0 || committed == 0 || interest == 0 || friend == 0){
     alert("Please select an option from each box")
@@ -32,9 +31,7 @@ function course(){
   if (company === "startup" && committed === "yes" && interest === "yes" && friend === "yes"){
     // alert("You should take Ruby/Rails")
     $("#ruby").show();
-  // } else{
-  //   alert("You should not enroll")
-  //   $("#Not").show()
+
   }
 
   };
@@ -45,5 +42,5 @@ $(document).ready(function() {
     getValues();
     course();
     console.log(company);
-});
+  });
 });
