@@ -1,18 +1,15 @@
-#java {
-  display: none;
-};
-#csharp {
-  display: none;
-};
-#php {
-  display: none;
-};
-#ruby {
-  display: none;
-};
-#not {
-  display: none;
-};
+#cSharp{
+  display:none;
+}
+#java{
+  display:none;
+}
+#php{
+  display:none;
+}
+#ruby{
+  display:none;
+}
 
 body img{
   background-color: teal;
